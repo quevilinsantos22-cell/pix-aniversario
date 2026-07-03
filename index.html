@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>PIX</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fffaf4;
+    font-family:Arial;
+    text-align:center;
+}
+
+.caixa{
+    padding:40px;
+}
+
+h1{
+    color:#9b7b32;
+}
+
+p{
+    font-size:18px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="caixa">
+<h1>💛 Chave PIX copiada!</h1>
+<p>Agora é só abrir o aplicativo do banco e colar.</p>
+</div>
+
+<script>
+
+const chave = "77998634304";
+
+navigator.clipboard.writeText(chave);
+
+</script>
+
+</body>
+</html>
